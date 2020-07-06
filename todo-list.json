@@ -1,0 +1,24 @@
+{
+    "list": [
+        {
+            "body": "Return library book",
+            "completed": false,
+            "id": 0
+        },
+        {
+            "body": "Water plants",
+            "completed": false,
+            "id": 1
+        },
+        {
+            "body": "Shop for groceries",
+            "completed": true,
+            "id": 2
+        },
+        {
+            "body": "Buy new cat toy",
+            "completed": false,
+            "id": 3
+        }
+    ]
+}

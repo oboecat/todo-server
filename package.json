@@ -1,0 +1,30 @@
+{
+  "name": "todo-list-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "start-dev": "nodemon ./run-local.js",
+    "build": "babel src --out-dir lib",
+    "start": "node ./lib/index.js",
+    "build-dev": "npm run build -- -w"
+  },
+  "author": "Lila Pustovoyt",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "express-jwt-authz": "^2.3.1",
+    "jwks-rsa": "^1.8.0",
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/register": "^7.8.3",
+    "nodemon": "^1.19.4"
+  }
+}
